@@ -210,11 +210,12 @@ body {
 /*НИЗ*/
 
 #How_to_in {
+    height: 65%;
     width: 100%;
 }
 
 #map {
-    max-height: 100%;
+    height: 65%;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
