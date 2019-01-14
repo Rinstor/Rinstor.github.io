@@ -1,0 +1,242 @@
+/*ЗАДНИК*/
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+#cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+}
+
+/*ВЕРХ*/
+
+#head {
+    background-image: url(https://scontent.fiev12-1.fna.fbcdn.net/v/t1.0-9/41915680_267742170534703_1107306770079940608_o.jpg?_nc_cat=104&_nc_ht=scontent.fiev12-1.fna&oh=a05f23ce651fadb2d440890abce83979&oe=5C92AB60);
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100%;
+    width: 100%;
+    background-attachment: scroll;
+}
+
+/*Content*/
+
+#magazine {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+/*JAVA*/
+
+#J1 {
+    background-image: url(Java.jpg);
+    flex-grow: 1.5;
+    background-size: cover;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    order: 2;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*ANDROID*/
+
+#ANDROID {
+    background-image: url(Android.jpg);
+    flex-grow: 1;
+    background-size: cover;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    order: 1;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 25px;
+}
+
+/*HTML*/
+
+#Web {
+    background-image: url(https://i.pinimg.com/564x/b3/7b/4a/b37b4a3132c0917ed7e6e3e07ce0b28c.jpg);
+    flex-grow: 1;
+    background-size: cover;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    order: 3;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-right: 25px;
+}
+
+/*Reviews*/
+
+#Rev {
+    background-color: white;
+    width: 100%;
+    min-height: 65%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#rev_cont {
+    margin-top: 6.5%;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+/*GALERRY*/
+
+#Fto {
+    background-color: white;
+    width: 100%;
+    border-top-style: solid;
+    border-width: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+}
+
+#Ft {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px
+}
+
+.fot {
+    min-height: 330px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.place1 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-image: url(https://scontent.fiev12-1.fna.fbcdn.net/v/t1.0-9/45488834_284071655568421_3447036186495811584_o.jpg?_nc_cat=109&_nc_ht=scontent.fiev12-1.fna&oh=48f2d37aceffd9787bbb9a467909db7d&oe=5CD19574);
+    background-size: cover;
+}
+
+.place2 {
+    background-image: url(studio.jpg);
+    background-size: cover;
+    grid-column: 2/4;
+}
+
+.place3 {
+    background-image: url(stud3.jpg);
+    background-size: cover;
+    grid-column: 1/3;
+}
+
+.place4 {
+    background-image: url(stud2.jpg);
+    background-size: cover;
+    grid-column: 2/4;
+    grid-row: 5/7;
+}
+
+.place5 {
+    background-image: url(andoid.jpg);
+    background-size: cover;
+}
+
+.place6 {
+    background-image: url(Android.jpg);
+    background-size: cover;
+}
+
+.place7 {
+    background-image: url(HTML.jpg);
+    background-size: cover;
+}
+
+.place8 {
+    background-image: url(stud1.jpg);
+    background-size: cover;
+}
+
+.place9 {
+    background-image: url(https://scontent.fiev12-1.fna.fbcdn.net/v/t1.0-9/48339977_298115007497419_4801705065343614976_o.jpg?_nc_cat=109&_nc_ht=scontent.fiev12-1.fna&oh=b817ccb65e4ebb16c55aaf8c0cba9a87&oe=5CD5D368);
+    background-size: cover;
+}
+
+.place10 {
+    background-image: url(https://scontent.fiev12-1.fna.fbcdn.net/v/t1.0-9/47278263_294506021191651_1871384600249368576_n.jpg?_nc_cat=103&_nc_ht=scontent.fiev12-1.fna&oh=cde8349e915f4acfee93803f52775a71&oe=5C91D788);
+    background-size: cover;
+}
+
+.place11 {
+    background-image: url(VECTOR_4.jpg);
+    background-size: cover;
+}
+
+.place12 {
+    background-image: url(Java.jpg);
+    background-size: cover;
+}
+
+.place13 {
+    background-image: url(https://scontent.fiev12-1.fna.fbcdn.net/v/t1.0-9/45638230_285065868802333_878553290021797888_o.jpg?_nc_cat=103&_nc_ht=scontent.fiev12-1.fna&oh=e0d917bfaf3b74d1b5944b5d5b8ceb7e&oe=5CD7CB18);
+    background-size: cover;
+}
+
+.place14 {
+    background-image: url(https://scontent.fiev12-1.fna.fbcdn.net/v/t1.0-9/45568517_284701328838787_8720403260227190784_n.jpg?_nc_cat=101&_nc_ht=scontent.fiev12-1.fna&oh=8562c95f4d6db71bc4a4be77a250749f&oe=5CC6D6AC);
+    background-size: cover;
+}
+
+/*НИЗ*/
+
+#How_to_in {
+    background-image: url(wood.jpg);
+    background-size: cover;
+    height: 65%;
+    width: 100%;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#contact {
+    box-shadow: 0px 0px 14px 0px #000000;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    margin-top: 3.5%;
+    margin-left: 65%;
+}
+
+#h {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 25px;
+    font-family: serif;
+}
